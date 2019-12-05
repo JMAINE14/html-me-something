@@ -1,12 +1,66 @@
-
-body {
-  background-color: rgb(180, 180, 180);
-}  
-
-#bulls {
-color: red;
+body{
+  background-color:lightgray;
+  background-position: 0px;
+}
+header{
+  background-color:lightgray(92, 82, 82);
+}
+h1,h2{
+  font-family: 'Times New Roman';
+  color:black;
+  font-style:oblique;
+  text-align:center;
+}
+p{
+  font-family: 'Times New Roman';
+  font-style: initial;
+  font-size:20px;
+}
+section{
+  background-color:lightsteelblue;
+}
+article{
+  table-layout: auto;
+}
+.berd{
+  font-family: 'Times New Roman';
+  font-style: initial;
+  font-size:20px;
+}
+#bulls{
+  border-width:20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+ul{
+  text-decoration: none;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+ul li{
+width: 120px;
+height: 40px;
+border: 2px solid black;
+background-color:rgb(192, 8, 8);
+list-style-type:none;
+float:left;
+}
+a:hover {
+  background-color:green;
+}
+figure{
+  margin:2;
+  padding:1;
+}
+img{
+  height: 100%;
+  width:80%
+  max-width :100%
+}
+footer{
+  color: indigo;
+  display: inline-block;
 }
 
-.bred {
-  color: rgb(214, 6, 6);
-  }
